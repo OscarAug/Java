@@ -206,7 +206,21 @@ Exception classes
     isAPoint() : A circle is a point if r == 0
     isLarge() : A square is large if side is larger than 10
 
-7. https://npu85.npu.edu/~henry/npu/classes/introjava/java_class/slide/exercises3.html (18)
+7.  
+```
+--------------------------
+| Hand                   |
+|                        |
+|  -------------         |
+|  | Palm      |         |
+|  |  int size |         |
+|  -------------         |
+|  -------------         |
+|  | Finger    | ....... |
+|  |   int len | ....... |
+|  -------------         |
+--------------------------
+```
 
 8.  create a object at beginning is looks like fObj, display the values, then change the values like fObj1 and display the values, clone fObj to create fObj1, display the values of all the attributes of fObj1, check whether fObj is equal to fObj1
 ```
