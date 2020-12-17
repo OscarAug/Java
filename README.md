@@ -33,7 +33,10 @@
 
 5.  Mr.Wang a rectangular cake whose width is 4 and height is 3, Mr.Lee ate half of the cake and converted the shape of the cake into a right triangle, Mr.Wang buys another cake that has the same shape and size as the old one for Mr.Lee, Mr.Lee checks whether the old cake and the new one have the same shape and size, Mr.Lee would like to find out the area and perimeter of the new cake
 
-6.  there are two ancient Chinese coin which has circular shape and a square hole in the middle of the coin, we need calculate the area of coin and does the square is large, does the circle is large, does the circle is a point, does the coin is normal
+6.
+![360截图20201216214043015](https://user-images.githubusercontent.com/35901911/102443095-8e2b5100-3feb-11eb-9a4c-87b4dbefbe5a.jpg)
+
+there are two ancient Chinese coin which has circular shape and a square hole in the middle of the coin, we need calculate the area of coin and does the square is large, does the circle is large, does the circle is a point, does the coin is normal
 
     isNormal() : A coin is normal if its diameter is longer than the diagnal of the square
     isLarge() : A circle is large if its radius is larger than 10
