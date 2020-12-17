@@ -139,13 +139,69 @@ Color: red
 
 10. Visual Studio installation
 
-11. 
+11. Javadoc for a simple code
 
-12.
+12. design the door of a car which behaves correctly when it is opened or closed
+```
+  +---------+
+  | I_Door  |
+  +----+----+
+       |
+ +-----+--------+  +--------+ +-----------+
+ |I_LockableDoor|  |I_Alarm | | C_CarPart |
+ +-----+--------+  +--+-----+ +------+----+
+       |              |              |
+       +--------------+--------------+
+                      |
+              +-------+-----+
+              |  C_CarDoor  |
+              +-------------+
+```
 
-13.
+13. error exception handling
+```
+Regular Class
 
-14.
+        +------------------------+
+        | Date                   |
+        |   int m, d, y;         |
+        |   int leap_year_flag;  |
+        +------------------------+
+
+Exception Classes
+
+                       --------------+
+                       | Error       |
+                       |   int code  |
+                       --------------+
+                             |
+                             | public
+                             |
+    +------------------------+------------------+
+    |                        |                  |
+    | public                 | public           | public
+    |                        |                  |
++--------------+        +------------+     +------------+
+| ErroYear     |        | ErrorDay   |     | ErrorMonth |
+|   int y      |        |  int m     |     |   int m    |
+|              |        |  int d     |     |            |
++--------------+        +----+-------+     +------------+
+    code:1                   | code: 2         code: 3
+                             |
+               +-------------+-------------------------------+
+               |public       | public          |             |
+               |             |                 |             |
+        +------+------+ +----+-------+  +------+------+ +----+-------+
+        | Error31Days | | Error29Day |  | Error30Days | | Error28Day |
+        |             | |   int y    |  |             | |   int y    |
+        +-------------+ +------------+  +-------------+ +------------+
+           code: 21         code: 22       code: 23       code: 24
+```
+
+14. Create 2 alarm clocks:
+      One will alram 2 seconds later and generate one beep soud
+      The second will alam 4 seconds later and generate two beep soud
+
 
 15.
 
