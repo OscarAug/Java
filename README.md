@@ -132,7 +132,7 @@ Totoal number of pages: 4
     pageNum: 4
 Color: red
 
-10.
+10. Visual Studio installation
 
 11.
 
