@@ -26,6 +26,7 @@
 3. there are two mouses fighting, win or lose based on the number of legs, winner is normal who have 4 legs, loser's leg number less than 4
 
 4. about the student ID and is student graduate or not
+
    isNotAStudent() : if id <= 0 
    graduate() : set the id to -1 if a student is graduated
    lostIDCard() : set the id to 0
@@ -33,6 +34,7 @@
 5.  Mr.Wang a rectangular cake whose width is 4 and height is 3, Mr.Lee ate half of the cake and converted the shape of the cake into a right triangle, Mr.Wang buys another cake that has the same shape and size as the old one for Mr.Lee, Mr.Lee checks whether the old cake and the new one have the same shape and size, Mr.Lee would like to find out the area and perimeter of the new cake
 
 6.  there are two ancient Chinese coin which has circular shape and a square hole in the middle of the coin, we need calculate the area of coin and does the square is large, does the circle is large, does the circle is a point, does the coin is normal
+
     isNormal() : A coin is normal if its diameter is longer than the diagnal of the square
     isLarge() : A circle is large if its radius is larger than 10
     isAPoint() : A circle is a point if r == 0
