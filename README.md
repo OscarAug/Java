@@ -43,6 +43,7 @@
 7. https://npu85.npu.edu/~henry/npu/classes/introjava/java_class/slide/exercises3.html (18)
 
 8.  create a object at beginning is looks like fObj, display the values, then change the values like fObj1 and display the values, clone fObj to create fObj1, display the values of all the attributes of fObj1, check whether fObj is equal to fObj1
+```
 +-----------------------------------------+                       
 | D                                       |
 |  int d=1                                |
@@ -79,8 +80,9 @@
              | F             |     ---\     fObj1
              |    int f=5    |     ---/
              +---------------+
-
+```
 9.
+```
 ------------------------------------------------------------------
 | Menu                                                           |
 |                                                                |
@@ -133,10 +135,11 @@ Totoal number of pages: 4
     pageNum: 3
     pageNum: 4
 Color: red
+```
 
 10. Visual Studio installation
 
-11.
+11. 
 
 12.
 
